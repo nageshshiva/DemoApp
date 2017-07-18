@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cbt.demoapp.MainActivity">
+    <ImageView
+    android:id="@+id/login_logo_iv"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginTop="16dp"
+    android:layout_centerHorizontal="true"
+    android:src="@mipmap/fb"/>
+    <EditText
+    android:id="@+id/login_username_et"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:hint="@string/hint_un"
+    android:layout_below="@+id/login_logo_iv"/>
+    <EditText
+        android:id="@+id/login_password_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:hint="@string/hint_pwd"
+        android:layout_below="@+id/login_username_et"/>
+
+    <Button
+        android:id="@+id/login_btn_bv"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/login_label"
+        android:textSize="16dp"
+        android:layout_below="@+id/login_password_et"/>
+    <Button
+        android:id="@+id/signup_btn_bv"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/signup_label"
+        android:textSize="16dp"
+        android:layout_toRightOf="@+id/login_btn_bv"
+        android:layout_below="@+id/login_password_et"/>
+    <TextView
+        android:id="@+id/login_forgotpwd_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/forgot_pwd"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_below="@+id/login_btn_bv"/>
+
+</RelativeLayout>

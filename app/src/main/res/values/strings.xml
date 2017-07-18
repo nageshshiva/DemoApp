@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DemoApp</string>
+    <string name="hint_un">Username</string>
+    <string name="hint_pwd">Password</string>
+    <string name="login_label">Login</string>
+    <string name="signup_label">Sign up</string>
+    <string name="forgot_pwd">Forgot Password</string>
+    <string name="login_success">Login Successful</string>
+    <string name="login_failed">Login Failed</string>
+    <string name="title_activity_basic">BasicActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+</resources>
